@@ -715,7 +715,12 @@ h3 {
     font-weight: 700;
     color: #333333!important;
 }
-
+.h-mod{
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #333333!important;
+}
 .med-width-whitespace {
     max-width: 800px;
     margin: auto auto auto auto;
@@ -1039,4 +1044,31 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+blockquote{
+    border-left: 0px solid #eee;
+}
+blockquote p::before {
+    content: open-quote;
+  }
+blockquote p::after {
+    content: close-quote;
+}
+ blockquote p{
+    quotes: "“" "”" "‘" "’";
+}
+blockquote p {
+    font-size: 21px;
+    font-style: italic;
+    width: 90%;
+    line-height: 25px;
+    margin-left: 20px;
+    margin-bottom: 0px;
+}
+
+blockquote cite {
+    font-size: 14px;
+    margin-top: -15px!important;
+    text-align: center;
+    font-style: normal;
 }
