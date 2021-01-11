@@ -2,13 +2,13 @@
 <html lang="fr">
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="">
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="keywords" content="web design, agence webdesign Lyon, site web, création graphique, visibilité web">
+    <meta name="description" content="Pour la création d'un site web ou pour une retouche graphique, nos experts travaillent avec vos objectifs pour réussir le meilleur webdesign de votre site.">
+	 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <link rel="shortcut icon" type="image/png" href="favicon.jpg">
     
 	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="style.min.css">
 	<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="./css/et-line.min.css">
 	
@@ -16,9 +16,9 @@
 	<script src="./js/jquery-2.1.0.min.js"></script>
 	<script src="./js/bootstrap.min.js"></script>
 	<script src="./js/blocs.min.js"></script>
-	<script src="./js/jqBootstrapValidation.js"></script>
-	<script src="./js/formHandler.js"></script>
-    <title>page2</title>
+	<script src="./js/jqBootstrapValidation.min.js"></script>
+	<script src="./js/formHandler.min.js"></script>
+	<title>Contact | Webdesign et création graphique | La Chouette Agence</title>
 
     
 <!-- Analytics -->
@@ -80,7 +80,7 @@
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-6">
-				<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
+				<form id="form_1" method= "post" action="#"  novalidate data-success-msg="Your message has been sent." data-fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
 					<div class="form-group">
 						<label for="name">
 							Nom
@@ -97,7 +97,7 @@
 						<label for="input_504">
 							Comment nous avez-vous connu ?
 						</label>
-						<input class="form-control" type="email" required id="input_504" />
+						<input class="form-control" type="text" required id="input_504" /> <!-- corrigé type="email"-->
 					</div>
 					<div class="form-group">
 						<label for="message">
