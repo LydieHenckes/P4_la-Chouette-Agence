@@ -1,3 +1,2 @@
 User-agent: *
-Disallow: /contact.html
 Sitemap: https://lydiehenckes.github.io/P4_la-Chouette-Agence/sitemap.xml
