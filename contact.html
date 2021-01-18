@@ -1,8 +1,11 @@
 <!doctype html>
+<!--Remplacement de la valeur d'attribut lang par fr-->
 <html lang="fr">
 <head>
-    <meta charset="utf-8">
-    <meta name="keywords" content="web design, agence webdesign Lyon, site web, création graphique, visibilité web">
+	 <meta charset="utf-8">
+	 <!--Ajout des mots-clés pertinents-->
+	 <meta name="keywords" content="web design, agence webdesign Lyon, site web, création graphique, visibilité web">
+	 <!--Ajout du contenu de meta desctiption -->
     <meta name="description" content="Contactez notre agence pour la création d'un site web ou pour une retouche graphique! Nos experts travaillent pour réussir le meilleur webdesign de votre site.">
 	 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <link rel="shortcut icon" type="image/png" href="favicon.jpg">
@@ -12,13 +15,13 @@
 	<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="./css/et-line.min.css">
 	
-    
+    <!--Ajout de la propriété defer pour différer les scripts js-->
 	<script src="./js/jquery-2.1.0.min.js" defer></script>
 	<script src="./js/bootstrap.min.js" defer></script>
 	<script src="./js/blocs.min.js" defer></script>
 	<script src="./js/jqBootstrapValidation.min.js" defer></script>
 	<script src="./js/formHandler.min.js" defer></script>
-	<title>Contact | Entreprise webdesign Lyon| La Chouette Agence</title>
+	<title>Contact | Entreprise webdesign Lyon | La Chouette Agence</title>
 
     
 <!-- Analytics -->
@@ -80,6 +83,7 @@
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-6">
+				<!--Correction de l'attribut success-msg pour passer la validetion html-->
 				<form id="form_1" method= "post" action="#"  novalidate data-success-msg="Your message has been sent." data-fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
 					<div class="form-group">
 						<label for="name">
@@ -104,7 +108,7 @@
 							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
 						</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
 					</div> 
-					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine text-color-black" type="submit">
+					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine text-color-black btn-focus" type="submit">
 						Envoyer
 					</button>
 				</form>
